@@ -1,0 +1,36 @@
+/* Style for all paragraphs with two rules on the page */
+p {
+    color: blue;
+    font-size: 16px;
+}
+
+/* Style for all level two headers with the Smith School Theme */
+h2 {
+    color: #990000;
+    text-decoration: underline;
+}
+
+/* Style for all tables, including a border and border color */
+table, td, th {
+    border-style: solid;
+    border-width: 3px;
+    border-color: #990000;
+    border-collapse: collapse;
+}
+
+/* Style for the special third paragraph using its id */
+p#third-paragraph {
+    color: blue;
+    font-weight: bold;
+}
+
+/* Class rule block that adds a UMD gold background */
+.gold-background {
+    background-color: #FFD200;
+}
+
+/* Logo sizing, applied only to img tags with the logo class */
+img.logo {
+    width: 270px;
+    height: 70px;
+}
