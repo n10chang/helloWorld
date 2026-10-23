@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{# Text shown in the browser tab #}
+{% block page_title %}My Favorite Course{% endblock %}
+
+{# Heading shown at the top of the page #}
+{% block page_head %}My Favorite Course{% endblock %}
+
+{% block page_content %}
+    {# Reads subject and course_number from the URL query string #}
+    <p>You entered your favorite course as: {{ request.args.get('subject') }} {{ request.args.get('course_number') }}</p>
+{% endblock %}
